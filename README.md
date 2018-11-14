@@ -41,7 +41,7 @@ bk ~/Work 3
 
 This will list all directories under `~/Work` with a maximum depth of 3 subdirectories in the tree.
 
-After this, we will have a `~/.fzf_favorites` file.
+After this, we will have a `~/.fzf_bookmarks` file.
 
 ## Usage
 
