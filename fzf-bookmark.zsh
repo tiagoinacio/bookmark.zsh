@@ -2,8 +2,8 @@ bk_widget() LBUFFER+=$(bk)
 zle -N bk_widget
 bindkey '^b' bk_widget
 
-export $FZFBOOKMARKS="~/.fzf_bookmarks"
-export $FZFBOOKMARKS_BACKUP="~/.fzf_bookmarks_backup"
+export FZFBOOKMARKS="$HOME/.fzf_bookmarks"
+export FZFBOOKMARKS_BACKUP="$FZFBOOKMARKS-backup"
 
 strip_duplicates() {
     # unique values only
